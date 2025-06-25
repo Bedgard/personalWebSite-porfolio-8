@@ -104,6 +104,11 @@
   white-space: nowrap;
 }
 
+.informations-datas li a {
+  display: block;
+  width: 100%;
+}
+
 .informations-datas li:hover {
   transform: scale(1.03);
 }

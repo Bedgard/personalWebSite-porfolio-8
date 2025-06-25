@@ -13,7 +13,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  filter: contrast(100%);
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -111,6 +110,20 @@ body {
   font-size: 2.8rem;
   color: var(--color-white);
   line-height: 1.3;
+}
+
+.container-card-description a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 2.7rem;
+}
+
+.container-card-description span {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 0 0rem;
+  border-radius: 20px;
 }
 
 /* CONTAINER CARD IMAGE */
@@ -215,9 +228,10 @@ body {
   height: 6rem;
   border-radius: 50%;
   position: fixed;
-  right: 40px;
-  bottom: -40px;
+  right: 15px;
+  bottom: 8px;
   cursor: pointer;
+  opacity: 0;
 }
 
 .btn-scrolling ion-icon {

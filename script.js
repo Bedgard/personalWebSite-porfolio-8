@@ -13,3 +13,13 @@ close.addEventListener("click", () => {
   open.style.display = "block";
   navList.style.display = "none";
 });
+
+const btnScrolling = document.querySelector(".btn-scrolling");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    btnScrolling.style.opacity = 1;
+  } else {
+    btnScrolling.style.opacity = 0;
+  }
+});
