@@ -28,7 +28,7 @@
   }
 
   .header-content {
-    left: 21%;
+    left: 28%;
   }
 
   .information-list {
@@ -73,6 +73,12 @@
   }
 }
 
+/*  MEDIA 850px  */
+@media (max-width: 850px) {
+  .header-content {
+    left: 21%;
+  }
+}
 /*  MEDIA 774px  */
 
 @media (max-width: 774px) {
@@ -123,7 +129,7 @@
   }
 
   .header-content {
-    top: 57%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
