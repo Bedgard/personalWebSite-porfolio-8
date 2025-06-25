@@ -99,7 +99,7 @@
   font-size: 2rem;
   font-weight: var(--fw-regular);
   color: rgba(0, 0, 0, 0.823);
-  padding: 1rem 0rem 1rem 2rem;
+  /* padding: 1rem 0rem 1rem 2rem; */
   margin-top: 1.4rem;
   letter-spacing: 0.2px;
   border: 3px solid var(--color-primary);
@@ -111,9 +111,15 @@
 
 .informations-datas li a {
   display: block;
-  width: 105%;
-  margin-left: -2rem;
+  width: 100%;
+  margin-left: 0rem;
   padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.information-padding {
+  padding: 1rem 2rem;
 }
 
 .informations-datas li:hover {
