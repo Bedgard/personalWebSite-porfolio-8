@@ -32,7 +32,7 @@ body {
     transform: translateX(-1200px);
   }
   100% {
-    transform: translateX(70px);
+    transform: translateX(-300px);
     text-decoration: underline 10px var(--color-primary);
   }
 }
@@ -126,7 +126,8 @@ body {
 .container-card-description a {
   color: var(--color-primary);
   text-decoration: none;
-  font-size: 2.7rem;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 .container-card-description span {

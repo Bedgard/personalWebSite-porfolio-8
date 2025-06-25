@@ -46,10 +46,10 @@
 
 @media (max-width: 1150px) {
   .container-card {
-    row-gap: 25rem;
+    row-gap: 19rem;
     column-gap: 2rem;
     margin-left: 4rem;
-    margin-right: 0rem;
+    margin-right: 2rem;
     margin-top: 7rem;
   }
 
@@ -102,7 +102,7 @@
   }
 
   .container-card {
-    row-gap: 29rem;
+    row-gap: 19rem;
     column-gap: 2rem;
     margin-left: 4rem;
     margin-right: 1rem;
@@ -157,7 +157,7 @@
 
 @media (max-width: 855px) {
   .container-card {
-    row-gap: 25rem;
+    row-gap: 13rem;
     column-gap: 5rem;
     margin-left: 4rem;
     margin-right: 2rem;
