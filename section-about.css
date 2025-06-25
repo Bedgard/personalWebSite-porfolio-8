@@ -111,7 +111,9 @@
 
 .informations-datas li a {
   display: block;
-  width: 100%;
+  width: 103%;
+  margin-left: -2rem;
+  padding-left: 2rem;
 }
 
 .informations-datas li:hover {
