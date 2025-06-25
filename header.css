@@ -1,6 +1,6 @@
 /*** HEADER ***/
 header {
-  height: 55rem;
+  height: 70vh;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.896),
@@ -18,6 +18,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header-title {

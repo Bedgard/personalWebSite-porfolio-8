@@ -1,5 +1,25 @@
 /* HOME PAGE */
 
+@media (min-width: 2000px) {
+  header {
+    position: relative;
+    height: 73rem;
+  }
+  .header-content {
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .section-about {
+    padding: 9rem;
+  }
+
+  .section-about h2 {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
 /*  MEDIA 1250px  */
 
 @media (max-width: 1250px) {

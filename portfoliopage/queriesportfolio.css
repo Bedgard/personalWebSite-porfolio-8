@@ -46,7 +46,7 @@
 
 @media (max-width: 1150px) {
   .container-card {
-    row-gap: 12rem;
+    row-gap: 25rem;
     column-gap: 2rem;
     margin-left: 4rem;
     margin-right: 0rem;
@@ -102,7 +102,7 @@
   }
 
   .container-card {
-    row-gap: 7rem;
+    row-gap: 29rem;
     column-gap: 2rem;
     margin-left: 4rem;
     margin-right: 1rem;
@@ -140,6 +140,10 @@
     font-size: 1.8rem;
   }
 
+  .container-card-description a {
+    font-size: 1.7rem;
+  }
+
   .header-title {
     font-size: 2.8rem;
   }
@@ -153,7 +157,7 @@
 
 @media (max-width: 855px) {
   .container-card {
-    row-gap: 12rem;
+    row-gap: 25rem;
     column-gap: 5rem;
     margin-left: 4rem;
     margin-right: 2rem;
@@ -173,6 +177,7 @@
     margin: 3rem 2rem 2rem 4rem;
     row-gap: 8rem;
     column-gap: 2rem;
+    row-gap: 28rem;
   }
   .container-card-description {
     font-size: 1.6rem;

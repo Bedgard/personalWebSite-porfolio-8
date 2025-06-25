@@ -1,4 +1,5 @@
 /*** INFORMATIONS SECTION ***/
+
 .section-about {
   background-color: #f5f5f5;
   padding: 2rem;
@@ -12,6 +13,8 @@
   color: black;
   font-weight: bold;
   padding: 1rem 0rem 0rem 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .section-about h2 span {
@@ -25,6 +28,8 @@
   margin-top: 2rem;
   display: flex;
   gap: 5rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* IMAGE PROFILE  */
@@ -127,6 +132,11 @@
 }
 
 /* ICONS ITEMS  */
+
+.icons {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .icons-items {
   display: flex;

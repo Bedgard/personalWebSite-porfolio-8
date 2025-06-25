@@ -37,6 +37,11 @@ body {
   }
 }
 
+.header-title {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .main-nav-list a {
   color: white;
   text-decoration: none;
@@ -71,6 +76,12 @@ body {
 }
 
 /* CONTAINER CARD INFORMATIONS  */
+
+.section-card {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .container-card-number {
   display: flex;
   justify-content: center;
