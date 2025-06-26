@@ -242,6 +242,10 @@
 }
 
 @media (max-width: 774px) {
+  header {
+    height: 65vh;
+  }
+
   .header-content {
     top: 60%;
   }
