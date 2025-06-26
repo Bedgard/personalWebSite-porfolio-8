@@ -99,7 +99,7 @@
   }
   header {
     width: 100%;
-    height: 65vh;
+    height: 55rem;
   }
 
   .btn-mobile-nav {
@@ -238,15 +238,5 @@
     overflow: hidden;
     border-radius: 2rem;
     width: 450px;
-  }
-}
-
-@media (max-width: 774px) {
-  header {
-    height: 55rem;
-  }
-
-  .header-content {
-    top: 60%;
   }
 }
