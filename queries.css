@@ -243,6 +243,12 @@
 
 @media (max-width: 774px) {
   .header-content {
-    top: 63%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    top: 60%;
   }
 }
