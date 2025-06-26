@@ -244,6 +244,7 @@
 @media (max-width: 600px) {
   header {
     height: 55rem;
+    background-attachment: fixed;
   }
 
   .header-content {
