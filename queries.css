@@ -251,3 +251,14 @@
     left: 50%;
   }
 }
+
+@media (max-width: 450px) {
+  header {
+    height: 60vh;
+  }
+
+  .header-content {
+    top: 55%;
+    left: 50%;
+  }
+}
