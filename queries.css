@@ -245,4 +245,9 @@
   header {
     height: 75vh;
   }
+
+  .header-content {
+    top: 56%;
+    left: 50%;
+  }
 }
