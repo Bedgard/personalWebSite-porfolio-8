@@ -241,20 +241,8 @@
   }
 }
 
-@media (max-width: 600px) {
-  header {
-    height: 55rem;
-  }
-
+@media (max-width: 774px) {
   .header-content {
-    top: 60%;
-    left: 50%;
-  }
-}
-
-@media (max-width: 450px) {
-  .header-content {
-    top: 55%;
-    left: 50%;
+    top: 63%;
   }
 }
