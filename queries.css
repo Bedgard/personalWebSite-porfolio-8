@@ -243,7 +243,7 @@
 
 @media (max-width: 600px) {
   header {
-    height: 75vh;
+    height: 55rem;
   }
 
   .header-content {
@@ -253,10 +253,6 @@
 }
 
 @media (max-width: 450px) {
-  header {
-    height: 60vh;
-  }
-
   .header-content {
     top: 55%;
     left: 50%;
