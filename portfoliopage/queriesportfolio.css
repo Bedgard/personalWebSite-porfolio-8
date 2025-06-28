@@ -43,7 +43,7 @@
   }
   .card-img {
     /* width: 50%; */
-    height: 25rem;
+    height: 38rem;
   }
 
   .card-img img {
@@ -86,10 +86,6 @@
     margin-top: 16rem;
   }
 
-  .card-img img {
-    width: 100%;
-  }
-
   .container-card-description {
     font-size: 2rem;
   }
@@ -103,7 +99,7 @@
   }
   .card-img {
     width: 80%;
-    height: 26rem;
+    height: 30rem;
   }
 
   .btn-scrolling {
@@ -120,6 +116,10 @@
     font-weight: 700;
     animation: letter-animation-mobile ease-in-out 1s forwards;
     text-transform: uppercase;
+  }
+
+  .link-git {
+    font-size: 2rem;
   }
 
   @keyframes letter-animation-mobile {
