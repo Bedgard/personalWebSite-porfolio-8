@@ -358,6 +358,7 @@
   .kanap img {
     margin-top: 2.9rem;
     transform: scaleY(1.17);
+    width: 106%;
   }
   .container-card-description {
     font-size: 1.7rem;
