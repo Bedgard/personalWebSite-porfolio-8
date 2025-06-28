@@ -6,8 +6,9 @@
   .header-title {
     font-size: 6rem;
     max-width: fit-content;
+    margin-top: 4rem;
   }
-  
+
   .container-card-text {
     font-size: 2.4rem;
   }
@@ -20,12 +21,12 @@
     font-size: 4rem;
   }
   .card-img {
-    width: 50%;
+    /* width: 50%; */
     height: 25rem;
   }
 
   .card-img img {
-    width: 50%;
+    width: 100%;
   }
 
   .cross {
@@ -41,6 +42,16 @@
     width: 4rem;
     height: 4rem;
   }
+
+  @keyframes letter-animation {
+    0% {
+      transform: translateX(-1200px);
+    }
+    100% {
+      transform: translateX(0px);
+      text-decoration: underline 10px var(--color-primary);
+    }
+  }
 }
 
 /*  MEDIA 1150px  */
@@ -55,7 +66,7 @@
   }
 
   .card-img img {
-    width: 37%;
+    width: 100%;
   }
 
   .container-card-description {
@@ -70,8 +81,8 @@
     font-size: 4.5rem;
   }
   .card-img {
-    width: 64%;
-    height: 21rem;
+    width: 80%;
+    height: 26rem;
   }
 
   .btn-scrolling {
@@ -97,7 +108,7 @@
     100% {
       margin: auto 0;
       text-decoration: underline 4px var(--color-primary);
-      transform: translate(40%, 0);
+      transform: translate(20%, 0);
       font-size: 3rem;
     }
   }
@@ -111,7 +122,7 @@
   }
   .card-img {
     width: 66%;
-    height: 15rem;
+    height: 21rem;
   }
 
   .cross {
@@ -119,13 +130,13 @@
     height: 4rem;
   }
 
-  .kanap img {
+  /* .kanap img {
     height: 70%;
-  }
+  } */
 
-  .kanap {
+  /* .kanap {
     width: 66%;
-  }
+  } */
 
   .container-card-number {
     font-size: 2.3rem;
@@ -134,7 +145,7 @@
   }
 
   .card-img a {
-    width: 100%;
+    /* width: 100%; */
     height: 10rem;
   }
   .container-card-description {
@@ -166,8 +177,8 @@
   }
 
   .card-img {
-    width: 72%;
-    height: 19rem;
+    width: 93%;
+    height: 25rem;
   }
 }
 
@@ -195,11 +206,12 @@
   }
 
   .card-img img {
-    width: 49%;
+    width: 100%;
+    margin-top: 3rem;
   }
 
   .kanap img {
-    height: 88%;
+    margin-top: 0rem;
   }
 
   .header-title {
@@ -268,6 +280,7 @@
     letter-spacing: 2px;
     position: absolute;
     font-size: 2rem;
+    margin: 0;
   }
 
   .container-card {
@@ -320,6 +333,19 @@
 /*  MEDIA 573px  */
 
 @media (max-width: 573px) {
+  .link-git {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .card-img img {
+    margin-top: 3rem;
+  }
+  .kanap img {
+    margin-top: 2.9rem;
+    transform: scaleY(1.17);
+  }
   .container-card-description {
     font-size: 1.7rem;
   }
@@ -327,10 +353,11 @@
   .container-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 3rem;
+    row-gap: 4rem;
   }
   .card-img {
-    width: 60%;
+    width: 90%;
+    height: 30rem;
   }
 
   .omnifood {
@@ -338,5 +365,20 @@
   }
   .main-nav-list a {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .card-img {
+    width: 90%;
+    height: 21rem;
+  }
+
+  .kanap img {
+    margin-top: 1rem;
+  }
+
+  .card-img img {
+    margin-top: 1rem;
   }
 }

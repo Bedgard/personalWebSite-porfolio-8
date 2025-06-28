@@ -138,6 +138,16 @@ body {
   border-radius: 20px;
 }
 
+.link-git {
+  text-decoration-style: dotted;
+
+  text-decoration-thickness: 2px;
+  font-size: 2.3rem;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  color: #625df5;
+}
+
 /* CONTAINER CARD IMAGE */
 
 .card-img {
@@ -149,11 +159,13 @@ body {
   object-fit: cover;
   text-overflow: hidden;
   box-shadow: 3px 2px 3rem 6px var(--color-primary);
-  background-color: #f89c9c;
+  background-color: #ffff;
   justify-self: center;
   align-self: end;
   transform: perspective(1500px) rotateY(-18deg);
   transition: transform 1s ease 0s;
+  overflow: hidden;
+  position: relative;
 }
 
 .card-img:hover {
@@ -162,22 +174,33 @@ body {
 
 .card-img img {
   width: 60%;
-  margin-top: 4rem;
-  mix-blend-mode: multiply;
+  margin-top: 1rem;
+  /* mix-blend-mode: multiply; */
 }
 
-.card-img a {
+/* .card-img a {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+/* .card-img .test {
   width: 100%;
-  height: 30rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+} */
+
+.btn-link {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
 }
 
 /* CARD OMNIFOOD */
 
 .omnifood {
-  background-color: orange;
+  background-color: #fdf2e9;
   justify-self: center;
   align-self: end;
   transform: perspective(1500px) rotateY(18deg);
@@ -185,7 +208,7 @@ body {
 }
 
 .omnifood img {
-  width: 90%;
+  margin-top: 1rem;
 }
 
 .omnifood:hover {
@@ -194,16 +217,17 @@ body {
 
 /* CARD KANAP ET KASA */
 
-.kanap {
+/* .kanap {
   background-color: rgb(27, 108, 137);
-}
+} */
 
 .kanap img {
-  height: 100%;
-  width: 30%;
+  /* height: 100%; */
+  /* width: 30%; */
   object-fit: contain;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
   margin-top: 0rem;
+  transform: scale(1.07);
 }
 
 /* CARD CROSS  */
