@@ -2,6 +2,27 @@
 
 /*  MEDIA 1315px  */
 
+@media (max-width: 4000px) {
+  .card-img {
+    width: 85%;
+    height: 39rem;
+  }
+
+  .header-title {
+    margin-top: 4rem;
+  }
+
+  @keyframes letter-animation {
+    0% {
+      transform: translateX(-1200px);
+    }
+    100% {
+      transform: translateX(450px);
+      text-decoration: underline 10px var(--color-primary);
+    }
+  }
+}
+
 @media (max-width: 1315px) {
   .header-title {
     font-size: 6rem;
@@ -62,7 +83,7 @@
     column-gap: 2rem;
     margin-left: 4rem;
     margin-right: 2rem;
-    margin-top: 7rem;
+    margin-top: 16rem;
   }
 
   .card-img img {
