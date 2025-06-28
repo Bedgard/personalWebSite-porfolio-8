@@ -217,10 +217,6 @@ body {
 
 /* CARD KANAP ET KASA */
 
-.kanap {
-  background-color: #3498db;
-}
-
 .kanap img {
   /* height: 100%; */
   /* width: 30%; */
@@ -228,6 +224,7 @@ body {
   /* mix-blend-mode: multiply; */
   margin-top: 0rem;
   transform: scale(1.08);
+  width: 101%;
 }
 
 /* CARD CROSS  */
