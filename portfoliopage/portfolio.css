@@ -217,9 +217,9 @@ body {
 
 /* CARD KANAP ET KASA */
 
-/* .kanap {
-  background-color: rgb(27, 108, 137);
-} */
+.kanap {
+  background-color: #3498db;
+}
 
 .kanap img {
   /* height: 100%; */
