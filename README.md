@@ -4,6 +4,11 @@ Welcome to my personal website! This project was created to showcase my **portfo
 
 ---
 
+## Live Demo
+View the live site
+
+---
+
 ## About
 
 I designed and developed this website from scratch to:
