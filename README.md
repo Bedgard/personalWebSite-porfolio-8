@@ -5,7 +5,9 @@ Welcome to my personal website! This project was created to showcase my **portfo
 ---
 
 ## Live Demo
-View the live site
+
+You can view the live version of the site here:
+https://bedgard.github.io/personalWebSite-porfolio-8/
 
 ---
 
