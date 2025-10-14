@@ -1,23 +1,24 @@
-# Personal Portfolio Website
+#  Personal Portfolio Website
 
 Welcome to my personal portfolio website!  
 This project showcases my work, skills, and experience as a developer.  
 It serves as a central place where you can learn more about me and explore the projects I’ve worked on.
----
-
-## Live Demo
-[Check out the live version here](https://bedgard.github.io/personalWebSite-porfolio-8/index.html)
 
 ---
 
-## Built With
+##  Live Demo
+ [Check out the live version here](https://bedgard.github.io/personalWebSite-porfolio-8/index.html)
+
+---
+
+##  Built With
 - **HTML**
 - **CSS**
 - **JavaScript**
 
 ---
 
-## Features
+##  Features
 - About Me section  
 - Project portfolio with descriptions  
 - Responsive layout  
@@ -25,15 +26,17 @@ It serves as a central place where you can learn more about me and explore the p
 
 ---
 
-## Purpose
+##  Purpose
 This website was created to present my professional profile and personal projects in a clear and accessible way.  
 It reflects both my technical skills and my design sensibility.
 
 ---
 
-## Contact
+##  Contact
 Feel free to reach out to me if you'd like to collaborate or learn more!
 
 ---
+
+ Thanks for visiting my portfolio!
 
  Thanks for visiting my portfolio!
